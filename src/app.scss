@@ -1,0 +1,20 @@
+.app {
+    .app-users {
+        display: flex;
+
+        .app-users__user {
+            border-radius: 10px;
+            border: 1px solid #f0f0f0;
+            margin: 20px;
+            padding: 25px;
+            .name {
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .btn-delete {
+                background-color: red;
+                color: #f0f0f0;
+            }
+        }
+    }
+}
